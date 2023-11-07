@@ -107,6 +107,5 @@ User Story 4 (Expense Categories Management):
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
 <img src="https://github.com/MTKtaha1/Personal-Budget-Tracker/assets/129999518/58e78c65-5cd8-4a4d-84ba-72260e66759c" width=600>
 
