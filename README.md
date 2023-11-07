@@ -108,5 +108,5 @@ User Story 4 (Expense Categories Management):
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="/Users/maryamjamil/Desktop/Coding For X/Personal Budget Tracker/IMG_4988.jpeg" width=600>
 
