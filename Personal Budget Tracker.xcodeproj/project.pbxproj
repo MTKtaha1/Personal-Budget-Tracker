@@ -13,6 +13,10 @@
 		3F4B00092AF9A877007256A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B00072AF9A877007256A5 /* LaunchScreen.storyboard */; };
 		3F4BFFFD2AF9A875007256A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BFFFC2AF9A875007256A5 /* AppDelegate.swift */; };
 		3F4BFFFF2AF9A875007256A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BFFFE2AF9A875007256A5 /* SceneDelegate.swift */; };
+		3FB4A12B2AFBF33D000A9C69 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4A12A2AFBF33D000A9C69 /* Expense.swift */; };
+		3FB4A1352AFBF68D000A9C69 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4A1342AFBF68D000A9C69 /* Category.swift */; };
+		3FB4A1372AFBFC1D000A9C69 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4A1362AFBFC1D000A9C69 /* Home.swift */; };
+		3FB4A1392AFC008A000A9C69 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4A1382AFC008A000A9C69 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3F4BFFF92AF9A875007256A5 /* Personal Budget Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Budget Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4BFFFC2AF9A875007256A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F4BFFFE2AF9A875007256A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FB4A12A2AFBF33D000A9C69 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		3FB4A1342AFBF68D000A9C69 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3FB4A1362AFBFC1D000A9C69 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3FB4A1382AFC008A000A9C69 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		3F4BFFFB2AF9A875007256A5 /* Personal Budget Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				3FB4A1242AFBF166000A9C69 /* Model */,
+				3FB4A1252AFBF179000A9C69 /* View */,
 				3F4BFFFC2AF9A875007256A5 /* AppDelegate.swift */,
 				3F4BFFFE2AF9A875007256A5 /* SceneDelegate.swift */,
 				3F4B00002AF9A875007256A5 /* ViewController.swift */,
@@ -65,6 +75,24 @@
 				3F4B000A2AF9A877007256A5 /* Info.plist */,
 			);
 			path = "Personal Budget Tracker";
+			sourceTree = "<group>";
+		};
+		3FB4A1242AFBF166000A9C69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FB4A12A2AFBF33D000A9C69 /* Expense.swift */,
+				3FB4A1342AFBF68D000A9C69 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FB4A1252AFBF179000A9C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FB4A1362AFBFC1D000A9C69 /* Home.swift */,
+				3FB4A1382AFC008A000A9C69 /* CategoryView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB4A12B2AFBF33D000A9C69 /* Expense.swift in Sources */,
+				3FB4A1392AFC008A000A9C69 /* CategoryView.swift in Sources */,
+				3FB4A1352AFBF68D000A9C69 /* Category.swift in Sources */,
 				3F4B00012AF9A875007256A5 /* ViewController.swift in Sources */,
 				3F4BFFFD2AF9A875007256A5 /* AppDelegate.swift in Sources */,
+				3FB4A1372AFBFC1D000A9C69 /* Home.swift in Sources */,
 				3F4BFFFF2AF9A875007256A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
